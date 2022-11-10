@@ -1,0 +1,202 @@
+*{
+    margin : AUTO}
+
+
+body{
+    background-color: black ;
+}
+
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: white; 
+}
+
+p{
+    margin-left: 80px;
+}
+
+
+.navbar1 nav{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.img1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    
+
+}
+
+
+/**MILIEU DE PAGE**/
+section{
+    display: flex;
+    flex-direction: row;
+    background-color: #F3F3F3;
+    width : 800px;
+    padding-bottom: 80px;
+    margin-bottom: -110px;
+    
+}
+
+#gantsNoir{
+    margin-left: 50px;
+}
+
+#gantsRouge{
+    margin-left: 50px;
+}
+.card{
+    margin-top: 30px;
+}
+
+.card-text{
+    font-weight: 500;
+    font-size: 12px;
+}
+.badge.bg-dark{
+  color:orange;
+  margin-left: 220px;
+  margin-top: 10px;
+}
+ 
+.prix{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+
+}
+
+button{
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 140px
+}
+
+h2{
+    color: orange;
+    margin-left: 15px;
+    font-size: 30px;
+}
+
+h3{
+    font-size: 30px;
+    margin-left: 15px;
+}
+
+.navbar2{
+    position: relative;
+    top:50px;
+    box-shadow: 1px;
+}
+.navbar2 nav{
+    display: flex;
+  
+    width : 500px;
+    border-radius: 10px;
+    margin:20px auto;
+    padding: 5px 15px;
+    background-color: azure;
+    
+}
+
+.navbar2 ul{
+margin-top: 10px;
+;
+}
+
+
+/**FOOTER**/
+footer{
+    background-color:#373737;
+    padding-top: 50px;
+    
+}
+footer ul {
+    display: flex;
+    justify-content:center;
+    margin: auto;
+    list-style: none;
+}
+
+
+
+footer img{
+   margin : 20px 0px 20px 50px
+}
+
+hr{
+color:white;
+size: 30px;
+width:50%;
+margin-left: 25%;
+
+}
+
+.sn{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+@media(max-width: 576px){
+
+    section{
+        flex-direction: column;
+        width: 780px;
+        margin-left: 10px;
+        
+    }
+
+    .img1{
+        display: block;
+        margin-right: auto;
+     /* width:500px; */
+    }
+
+    #gantsRouge{
+        margin: 0 auto 0 auto;
+        
+        
+    }
+
+    #gantsNoir{
+        margin: 0 auto 0 auto;
+        
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        width: 800px;
+    }
+
+    header p{
+        display: flex;
+        flex-direction: row;
+        margin-left: 20px;
+    }
+
+    footer{
+       width: 800px;
+
+    }
+
+    footer ul {
+        width: 700px;
+        flex-wrap: wrap;
+    }
+
+    .navbar2{
+        margin-left: 150px;
+    }
+}
